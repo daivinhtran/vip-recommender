@@ -1,0 +1,21 @@
+
+server: shared-sched.pace.gatech.edu
+
+Queue            Memory CPU Time Walltime Node  Run Que Lm  State
+---------------- ------ -------- -------- ----  --- --- --  -----
+biobot             --      --       --      --    0   0 --   E R
+iw-shared-6        --      --       --      --  107 933 --   E R
+sonarforce-6       --      --       --      --    0   0 --   E R
+casper             --      --       --      --    0   0 --   E R
+davenprtforce-6    --      --       --      --    0   0 --   E R
+hygeneforce-6      --      --       --      --    0   0 --   E R
+enveomics-6        --      --       --      --  124   0 --   E R
+math-6             --      --       --      --  236 335 --   E R
+apurimac-6         --      --       --      --    0   0 --   E R
+apurimacforce-6    --      --       --      --    0   0 --   E R
+gpu-recent         --      --       --      --    0   0 --   E R
+optimusforce-6     --      --       --      --    2   0 --   E R
+cygnus28           --      --       --      --    1   0 --   E R
+habanero           --      --       --      --    0   0 --   E R
+gaanam             --      --       --      --    0   6 --   E R
+threshold-6        --      --       --      --    0   0 --   E R
