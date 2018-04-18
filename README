@@ -1,0 +1,21 @@
+Recommender System
+
+Current Feature Set and How to Use:
+- In it's current form, the recommender parses PACE to find the queue with the fewest waiting jobs, and recommends that queue to submit to
+- This recommendation will be subject to a few constraints:
+  - If the time requested is greater than the Maximum Wall Time for the recommended queue, it will not recommend that queue
+  - If the resources requested are more than the Maximum Allowed resources by the queue, it will not recommend that queue
+  
+- To use, run the recommender.py script before submitting a job. It will print out the recommended queue.
+  `python recommender.py`
+- Currently, the user will have to now submit their job as normal, manually defining the other hardcoded variables and the queue as the recommended queue
+
+Future Features to Implement:
+- Allow the recommender system to submit the job as well
+- Take into account other variables such as walltime, processors, nodes, etc for different jobs
+  - Basic analytics of jobs to predict these variables
+- Regression algorithm for self-improvement of the recommender
+- Expand the recommendation from queues to queues, processors, nodes, walltime, etc
+- Analyze the status of PACE on job submission to get a current and accurate recommendation
+  - Log the statuses of PACE over time to determine external factors affecting how fast the system can get a job running on PACE
+  - Helps to determine best date/time of day to submit certain types of jobs
